@@ -25,7 +25,7 @@ public class Popups {
 		Thread.sleep(3000);
 		al.dismiss();
 		
-		
+		System.out.println("POPUPS!!");
 	}
 
 }
