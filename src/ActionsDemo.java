@@ -13,6 +13,8 @@ public class ActionsDemo {
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.in/");
 		
+		System.out.println("WELCOME TO AMAZON!!");
+		
 		Actions a = new Actions(driver);
 		a.moveToElement(driver.findElement(By.xpath("//a[@id='nav-link-accountList']"))).build().perform();
 

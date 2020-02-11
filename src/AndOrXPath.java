@@ -19,7 +19,6 @@ public class AndOrXPath {
 		
 		System.out.println("GENERATING GIT DEMO 1");
 		System.out.println("GENERATING GIT DEMO 2");
-		System.out.println("GENERATING GIT DEMO 3");
 	}
 
 }
