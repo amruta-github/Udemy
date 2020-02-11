@@ -16,6 +16,10 @@ public class AndOrXPath {
 		driver.findElement(By.xpath("//input[@type='reset' or @name='btnReset']")).click(); // or small case must 
 		
 		System.out.println(driver.findElement(By.xpath("//*[text()='Password']")).getText());
+		
+		System.out.println("GENERATING GIT DEMO 1");
+		System.out.println("GENERATING GIT DEMO 2");
+		System.out.println("GENERATING GIT DEMO 3");
 	}
 
 }
